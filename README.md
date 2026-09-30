@@ -61,7 +61,7 @@ Edit the configuration block at the top of `payload.sh`:
 ```markdown
 ## Summary
 
-Adds **WireGuard Sentinel**, a persistent VPN payload with health
+ **WireGuard Sentinel**, a persistent VPN payload with health
 monitoring, automatic reconnection, and peer failover. Fills the gap
 for operators who need WireGuard connectivity with resilience features
 beyond what the existing Tailscale suite provides.
@@ -69,7 +69,7 @@ beyond what the existing Tailscale suite provides.
 ## Motivation
 
 The `remote_access` category currently offers a comprehensive Tailscale
-lifecycle suite [citation:1][citation:6]. WireGuard Sentinel adds:
+lifecycle suite. WireGuard Sentinel adds:
 - Native WireGuard (not Tailscale-dependent)
 - Automatic tunnel recovery on failure
 - Primary/backup peer failover
